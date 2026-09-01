@@ -11,18 +11,21 @@ int main()
 	float X;
 
 	cout << "Hello, my name is Youngin and I'm going to solve the equation:" << endl;
+	// This is the instruction
 	cout << "Ax + B = 0" << endl;
+	// This is the equation
 	cout << "For x" << endl;
 
 	cout << "\nPlease enter a value for A: ";
 	cin >> A;
+	// This where I type in the number for A
 	cout << "Please enter a value for B: ";
 	cin >> B;
-
+	// This where I type in the number for B
 	cout << "\nSolving " << A << "x+" << B << "= 0" << " for x..." << endl;
 
 	X = -B / A;
-
+	// This is the equation I used to find x
 	cout << "\nThe answer is:" << endl;
 	cout << "x=" << X;
 }
